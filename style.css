@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  src: url();
+}
+.container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.flex-direct-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+.flex-direct-row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+.top-bar{
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 40px;
+  background-color: #D9D9D9;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav-link{
+  margin: 10px 10px 0px 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+.title-profesi{
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.slidetentara{
+  background-color: #D5FFDD;
+  border-radius: 20px;
+}
+
+.slidepetani{
+  background-color: #FFF4DC;
+  border-radius: 20px;
+}
+
+.slidepramugari{
+  background-color: #FFCED7;
+  border-radius: 20px;
+}
+.slidefotografer{
+  background-color: #E2F2FF;
+  border-radius: 20px;
+}
+.set1{
+  width: 100%;
+  height: auto;
+}
+.slidedokter{
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.slidepilot{
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.slideilmuwan{
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.slidepembalap{
+  background-color: #FFDBC5;
+  border-radius: 20px;
+}
+.slideastronout{
+  background-color: #8FC5ED;
+  border-radius: 20px;
+}
+@media(min-width: 425px) {
+
+  .slidetentara{
+    width: 289px;
+    height: 299px;
+  }
+
+  .slidetentara img{
+    top: -30px;
+    left: 30px;
+    position: relative;
+  }
+
+  .slidetentara h2{
+    top: -10px;
+    left: 90px;
+    position: relative;
+  }
+
+.slidetentara p{
+    top: -15px;
+    left: 60px;
+    position: relative;
+  }
+
+.buttontentara{
+    width: 200px;
+    height: 37px;
+    top: -125px;
+    left: 45px;
+    border-radius: 15px;
+    background-color: #399349;
+    color: white;
+    border: none;
+    font-weight: 500;
+    position: relative;
+}
+
+  .slidepetani{
+    width: 288.53px;
+    height: 221px;
+  }
+
+  .slidepetani img{
+  width: 213.26px;
+  height: 208.72px;
+  top: -0px;
+  left: 50px;
+  position: relative;
+  }
+
+  .buttonpetani{
+    width: 200px;
+    height: 37px;
+    top: -55px;
+    left: 55px;
+    border-radius: 15px;
+    background-color: #E29A00;
+    color: white;
+    border: none;
+    position: relative;
+  }
+
+  .slidepramugari{
+    width: 289px;
+    height: 239.85px;
+  }
+
+  .slidepramugari img{
+  width: 240px;
+  height: 240px;
+  top: 0px;
+  left: 40px;
+  position: relative;
+  }
+
+  .buttonpramugari{
+      width: 200px;
+      height: 37px;
+      top: -55px;
+      left: 55px;
+      border-radius: 15px;
+      background-color: #FF5573;
+      color: white;
+      border: none;
+      position: relative;
+    }
+
+  .slidefotografer{
+    width: 289px;
+    height: 341px;
+    margin-top: 30px;
+  }
+
+  .slidefotografer img{
+    width: 200px;
+    height: 200px;
+    top: -30px;
+    left: 40px;
+    position: relative;
+  }
+
+  .slidefotografer h2{
+    width: 133px;
+    height: 40px;
+    top: -10px;
+    left: 80px;
+    position: relative;
+}
+
+.slidefotografer p{
+    width: 80%;
+    height: 54px;
+    top: -10px;
+    left: 30px;
+    position: relative;
+}
+
+.buttonfotografer{
+    width: 200px;
+    height: 37px;
+    top: -160px;
+    left: 50px;
+    border-radius: 15px;
+    background-color: #3279AF;
+    color: white;
+    border: none;
+    position: relative;
+}
+
+.slidedokter{
+    width: 288.53px;
+    height: 221px;
+  }
+
+.slidedokter p{
+    width: 133px;
+    height: 30px;
+    top: 100px;
+    left: 132px;
+    position: relative;
+  }
+
+
+.slidedokter img{
+    width: 75%;
+    top: 0px;
+    left: 40px;
+    position: relative;   
+}
+
+.buttondokter{
+    width: 200px;
+    height: 37px;
+    top: -80px;
+    left: 50px;
+    border-radius: 10px;   
+    background-color: #D8D6C1;
+    color: white;
+    border : none;
+    border-width: 8px;
+    position: relative;
+}
+
+.slidepilot{
+    width: 288.53px;
+    height: 221px;
+  }
+
+.slidepilot p{
+    width: 133px;
+    height: 30px;
+    top: 100px;
+    left: 132px;
+    position: relative;
+  }
+
+  .slidepilot img{
+    width: 75%;
+    top: 0px;
+    left: 40px;
+    position: relative;   
+}
+
+.buttonpilot{
+    width: 200px;
+    height: 37px;
+    top: -80px;
+    left: 50px;
+    border-radius: 10px;   
+    background-color: #D8D6C1;
+    color: white;
+    border : none;
+    border-width: 8px;
+    position: relative;
+  }
+
+  .slideilmuwan{
+    width: 288.53px;
+    height: 221px;
+  }
+
+  .slideilmuwan p{
+    width: 133px;
+    height: 30px;
+    top: 100px;
+    left: 132px;
+    position: relative;
+  }
+
+  .slideilmuwan img{
+    width: 75%;
+    top: 0px;
+    left: 40px;
+    position: relative;   
+}
+
+.buttonilmuwan{
+    width: 200px;
+    height: 37px;
+    top: -80px;
+    left: 50px;
+    border-radius: 10px;   
+    background-color: #D8D6C1;
+    color: white;
+    border : none;
+    border-width: 8px;
+    position: relative;
+  }
+
+  .slidepembalap{
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+  }
+
+  .slidepembalap p{   
+    width: 100px;
+    top: -60px;
+    left: 144px;
+    position: relative;
+}
+
+.slidepembalap img{
+    width: 220px;
+    top: -0px;
+    left: 40px; 
+    position: relative;     
+}
+
+.buttonpembalap{
+    background-color: #E36415;
+    width: 200px;
+    height: 37px;
+    top: -80px;
+    left: 50px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    
+}
+
+  .slideastronout{
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+  }
+
+  .slideastronout p{   
+    width: 100px;
+    top: -60px;
+    left: 144px;
+    position: relative;
+}
+
+.slideastronout img{
+    width: 220px;
+    top: -0px;
+    left: 40px; 
+    position: relative;     
+}
+
+.buttonastronout{
+    background-color: #275E87;
+    width: 200px;
+    height: 37px;
+    top: -80px;
+    left: 50px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    
+}
+
+}
+@media(min-width: 1280px) {
+  .flex-direct-column {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .flex-direct-row{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+  }
+  .title-profesi{
+    margin-top: 83px;
+  }
+  .top-bar{
+    position: fixed;
+    top: 0px;
+  }
+  .slidetentara{
+    width: 490px;
+    height: 180px;
+    background-color: #D5FFDD;
+    border-radius: 20px;
+  }
+
+  .slidetentara img{
+    top: -50px;
+    left: -10px;
+    position: relative;
+    }
+  
+  .slidetentara h2{
+      top: -202px;
+      left: 220px;
+      position: relative;
+    }
+  
+  .slidetentara p{
+      top: -200px;
+      left: 220px;
+      position: relative;
+    }
+  
+  .buttontentara{
+      width: 240px;
+      height: 37px;
+      top: -165px;
+      left: 210px;
+      border-radius: 15px;
+      background-color: #399349;
+      color: white;
+      border: none;
+      font-weight: 500;
+      position: relative;
+  }
+  
+  .slidepetani{
+    width: 235px;
+    height: 180px;
+    background-color: #FFF4DC;
+    border-radius: 20px;
+  }
+
+  .slidepetani img{
+    width: 173px;
+    height: 170px;
+    top: 5px;
+    left: 30px;
+    position: relative;
+    }
+
+  .buttonpetani{
+      width: 173px;
+      height: 37px;
+      top: -45px;
+      left: 30px;
+      border-radius: 15px;
+      background-color: #E29A00;
+      color: white;
+      border: none;
+      position: relative;
+  }
+
+  .slidepramugari{
+    width: 235px;
+    height: 181px;
+    background-color: #FFCED7;
+    border-radius: 20px;
+  }
+
+  .slidepramugari img{
+    width: 170px;
+    height: 170px;
+    top: 5px;
+    left: 30px;
+    position: relative;
+    }
+
+  .buttonpramugari{
+    width: 173px;
+    height: 37px;
+    top: -45px;
+    left: 30px;
+    border-radius: 15px;
+    background-color: #FF5573;
+    color: white;
+    border: none;
+    position: relative;
+}
+
+  .slidefotografer{
+    width: 230px;
+    height: 392px;
+    background-color: #E2F2FF;
+    border-radius: 20px;
+  }
+
+  .slidefotografer img{
+    width: 160px;
+    height: 160px;
+    top: 35px;
+    left: 35px;
+    position: relative;
+    }
+  
+  .slidefotografer h2{
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+    top: 30px;
+    left: 50px;
+    position: relative;
+  }
+
+  .slidefotografer p{
+      width: 80%;
+      top: 40px;
+      left: 25px;
+      position: relative;
+    }
+  
+  .buttonfotografer{
+      width: 173px;
+      height: 37px;
+      top: 80px;
+      left: 30px;
+      border-radius: 20px;
+      background-color: #3279AF;
+      color: white;
+      border: none;
+      position: relative;
+  }
+
+  .set1{
+    width: 500px;
+    height: 392px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .slidedokter{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+
+  .slidedokter img{
+    width: 70px;
+    height: 70px;
+    top: 13px;
+    left: 20px;
+    position: relative;
+    }
+
+  .slidedokter p{
+      width: 133px;
+      height: 50px;
+      top: -50px;
+      left: 90px;
+      position: relative;
+  }
+
+  .buttondokter{
+    width: 149px;
+    height: 22px;
+    top: -75px;
+    left: 90px;
+    border-radius: 10px;   
+    background-color: #D8D6C1;
+    color: white;
+    border : none;
+    border-width: 8px;
+    position: relative;
+}
+
+
+  .slidepilot{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+
+  .slidepilot img{
+    width: 70px;
+    height: 70px;
+    top: 13px;
+    left: 20px;
+    position: relative;
+    }
+
+  .slidepilot p{
+      width: 133px;
+      height: 50px;
+      top: -50px;
+      left: 90px;
+      position: relative;
+  }
+
+  .buttonpilot{
+    width: 149px;
+    height: 22px;
+    top: -75px;
+    left: 90px;
+    border-radius: 10px;   
+    background-color: #D8D6C1;
+    color: white;
+    border : none;
+    border-width: 8px;
+    position: relative;
+}
+
+  .slideilmuwan{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+
+  .slideilmuwan img{
+    width: 70px;
+    height: 70px;
+    top: 13px;
+    left: 20px;
+    position: relative;
+    }
+
+  .slideilmuwan p{
+      width: 133px;
+      height: 50px;
+      top: -50px;
+      left: 90px;
+      position: relative;
+  }
+
+  .buttonilmuwan{
+    width: 149px;
+    height: 22px;
+    top: -75px;
+    left: 90px;
+    border-radius: 10px;   
+    background-color: #D8D6C1;
+    color: white;
+    border : none;
+    border-width: 8px;
+    position: relative;
+}
+
+  .set2{
+    width: 500px;
+    height: 181px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+  }
+  .slidepembalap{
+    width: 500px;
+    height: 181px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+  }
+
+  .slidepembalap img{
+    width: 120px;
+    height: 120px;
+    top: 30px;
+    left: 14px;
+    position: relative;
+    }
+
+  .slidepembalap p{
+      width: 133px;
+      height: 50px;
+      top: -70px;
+      left: 135px;
+      position: relative;
+  }
+
+  .buttonpembalap{
+    background-color: #D8D6C1;
+    width: 100px;
+    height: 55px;
+    top: -80px;
+    left: 130px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: relative;   
+  }
+
+  .slideastronout{
+    width: 500px;
+    height: 181px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+  }
+
+  .slideastronout img{
+    width: 120px;
+    height: 120px;
+    top: 30px;
+    left: 0px;
+    position: relative;
+    }
+
+    .slideastronout p{
+      width: 133px;
+      height: 50px;
+      top: -70px;
+      left: 115px;
+      position: relative;
+  }
+
+  .buttonastronout{
+    background-color: #D8D6C1;
+    width: 100px;
+    height: 55px;
+    top: -80px;
+    left: 110px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+
+}
